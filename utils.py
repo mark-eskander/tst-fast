@@ -4,8 +4,8 @@ import string
 import re
 import pickle
 
-# nltk.download('stopwords')
-# nltk.download('punkt')
+nltk.download('stopwords')
+nltk.download('punkt')
 stopword = nltk.corpus.stopwords.words('english')
 
 # Load the model from the .pkl file
